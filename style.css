@@ -5,22 +5,37 @@ Version: 1.0 or any other version you want
 Author: Evelyn, Casper, Jimmi, Justin, Anderson
 Tags: Tags to locate your theme in the WordPress theme repository
 */
-body {
-    font-family: arial, helvetica, verdana;
-    font-size: 0.8em;
-    width: 100%;
-    height: 100%;
+body
+ {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+  color: yellow;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
-
+h1{
+  color: yellow;
+  font-size: 35px;
+}
 .header {
     background-color: black;
-    margin-left: 14%;
     top: 0;
     border-width: 0.1em;
     border-color: #999;
     border-style: solid;
-    width: 72%;
+    width: 100%;
     height: 250px;
+}
+#logo{
+    float: right;
+}
+.logoImg{
+    width: 400px;
 }
 .footer {
     background-color: black;
@@ -32,4 +47,8 @@ body {
     border-width: 0.1em;
     border-color: #999;
     border-style: solid;
+}
+
+nav{
+  float: left;
 }
