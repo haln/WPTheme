@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
@@ -11,5 +13,14 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 </head>
 <header class="header">
-        <img alt="League of Legend" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
+      <div class="header-main">
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+      <div id="logo">
+          <img class = "logoImg" alt="League of Legend" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
+      </div>
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				   <?php wp_nav_menu( array( 'theme_location' => 'in_header', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
+			</nav>
+		  </div>
+
 </header>
