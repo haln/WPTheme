@@ -1,0 +1,35 @@
+/*Theme Name: League of Legend
+Theme URI:
+Description: A theme for League of Legend information
+Version: 1.0 or any other version you want
+Author: Evelyn, Casper, Jimmi, Justin, Anderson
+Tags: Tags to locate your theme in the WordPress theme repository
+*/
+body {
+    font-family: arial, helvetica, verdana;
+    font-size: 0.8em;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: black;
+    margin-left: 14%;
+    top: 0;
+    border-width: 0.1em;
+    border-color: #999;
+    border-style: solid;
+    width: 72%;
+    height: 250px;
+}
+.footer {
+    background-color: black;
+    margin-left: 14%;
+    float: left;
+    margin-top: 5px;
+    width: 72%;
+    height: 50px;
+    border-width: 0.1em;
+    border-color: #999;
+    border-style: solid;
+}
