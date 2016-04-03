@@ -1,6 +1,6 @@
 <footer class="footer">
-<p>And this is the footer</p>
+<p>Copyright © 2016 Anderson, Casper, Evelyn, Justin, Jimmi</p>
 </footer>
-<?php wp_footer(); //Crucial footer hook! ?>
+<?php wp_footer(); ?>
 </body>
 </html>
