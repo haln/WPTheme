@@ -4,7 +4,7 @@
 
 		<?php dynamic_sidebar( 'primary' ); ?>
 
-	
+	<?php else : ?>
 
 		<!-- Create some custom HTML or call the_widget().  It's up to you. -->
 
