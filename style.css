@@ -33,3 +33,8 @@ body {
     border-color: #999;
     border-style: solid;
 }
+.sidebar {
+ width: 150px;
+ float: right;
+ margin: 0 0 0 -170px;
+ }
