@@ -8,47 +8,136 @@ Tags: Tags to locate your theme in the WordPress theme repository
 body
  {
 	border: 0;
-	font-family: inherit;
+	font-family: arial, helvetica, verdana
 	font-size: 100%;
-	font-style: inherit;
 	font-weight: inherit;
-  color: yellow;
 	margin: 0;
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
+  background-image: url("images/bg.jpg");
 }
+
 h1{
-  color: yellow;
+  color: yellow !important;
   font-size: 35px;
+  margin-left: 10%;
+  float: left;
+  width: 100%;
+}
+h2{
+  color: yellow;
+  font-size: 25px;
+  margin-left: 10%;
+  width: 30%;
+  float: left;
+
 }
 .header {
-    background-color: black;
     top: 0;
-    border-width: 0.1em;
-    border-color: #999;
-    border-style: solid;
     width: 100%;
     height: 250px;
 }
+
+nav{
+  width: 100%;
+  float: left;
+  text-decoration: none;
+  background-color: black !important;
+  padding: 0;
+  margin: 0;
+}
+
 #logo{
     float: right;
+    margin-right: 10%;
 }
 .logoImg{
     width: 400px;
 }
-.footer {
-    background-color: black;
-    margin-left: 14%;
-    float: left;
-    margin-top: 5px;
-    width: 72%;
-    height: 50px;
-    border-width: 0.1em;
-    border-color: #999;
-    border-style: solid;
+/* menu styling*/
+#primary-menu {
+  margin-left: 10%;
+}
+#primary-menu ul {margin: 0; padding: 0;
+	list-style-type: none; list-style-image: none; }
+#primary-menu li {display: inline; }
+
+#primary-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #353535;
+  zoom: 1;
+}
+#primary-menu ul:before {
+  content: '';
+  display: block;
+}
+#primary-menu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#primary-menu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 4px;
+}
+#primary-menu li a {
+  display: block;
+  float: left;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px 7px 20px;
+  border-bottom: 3px solid transparent;
+}
+#primary-menu li a:hover {
+  color: #FFFFFF;
+  border-bottom: 3px solid #00b8fd;
+}
+#primary-menu li.active a {
+  display: inline;
+  border-bottom: 3px solid #00b8fd;
+  float: left;
+  margin: 0;
 }
 
-nav{
-  float: left;
+/*content style*/
+.entry-content{
+  background-color: #f1f1f1;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+
+}
+
+.sidebar {
+ width: 150px;
+ float: right;
+ margin: 0 0 0 -170px;
+ }
+
+
+
+/* footer style*/
+.footer {
+    background-color: black;
+    color:white;
+    float: left;
+    width: 100%;
+    height: 50px;
+  	font-size: 12px;
+  	position: relative;
+  	z-index: 3;
+    text-align: center;
+    margin-top: 0;
 }
