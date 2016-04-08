@@ -12,7 +12,11 @@
 </head>
 <header class="header">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-      <h2>This is the customized theme.</h2>
+      <h2><a href="<?php the_permalink() ?>"
+     rel="bookmark" title="Permanent Link to
+     <?php the_title_attribute(); ?>">
+     <?php the_title(); ?></a>
+</h2>
       <div id="logo">
           <img class = "logoImg" alt="League of Legend" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
       </div>
