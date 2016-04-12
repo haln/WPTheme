@@ -114,18 +114,34 @@ nav{
 /*content style*/
 .entry-content{
   background-color: #f1f1f1;
-  margin-left: 9%;
+  margin-left: 0%;
   margin-right: 0%;
-  padding: 3%;
-  width: 70%;
+  padding: 1%;
+  width: 100%;
   float: left;
 }
 
-.page-content{
-  background-color: #eafdf1;
+.main-content{
+  width: 100%;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 0;
+  border: 0;
+}
+
+.primary{
+  margin-left: 0%;
+  margin-right: 0;
+}
+ .page-content{
+   margin: 0;
+ }
+
+.page-content, .primary{
+  background-color: #eafdf1;
   padding: 5%;
+  width: 65%;
+  margin: 0;
+  float: left;
 }
 
 .sidebar {
