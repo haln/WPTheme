@@ -1,8 +1,8 @@
-/*Theme Name: League of Legend
+/*Theme Name: Beautiful Style
 Theme URI:
-Description: A theme for League of Legend information
-Version: 1.0 or any other version you want
-Author: Evelyn, Casper, Jimmi, Justin, Anderson
+Description: A theme for Beauty
+Version: CSS3
+Author: Casper
 Tags: Tags to locate your theme in the WordPress theme repository
 */
 body
@@ -15,7 +15,7 @@ body
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
-  background-image: url("images/bg.jpg");
+  background-image: url("images/girls-wallpaper.jpg");
 }
 
 h1{
@@ -33,7 +33,9 @@ h2{
   float: left;
 
 }
+
 .header {
+  background:rgba(0,0,0,0.4);
     top: 0;
     width: 100%;
     height: 250px;
@@ -43,17 +45,19 @@ nav{
   width: 100%;
   float: left;
   text-decoration: none;
-  background-color: black !important;
+  background:rgba(0,0,0,0.4);
   padding: 0;
   margin: 0;
 }
 
 #logo{
     float: right;
-    margin-right: 10%;
+    width: 100%;
+    background-image: url("images/girls-logo.png");
 }
 .logoImg{
     width: 400px;
+    display: none;
 }
 /* menu styling*/
 #primary-menu {
@@ -113,42 +117,33 @@ nav{
 
 /*content style*/
 .entry-content{
-  background-color: #f1f1f1;
-  margin-left: 9%;
-  margin-right: 0%;
-  padding: 3%;
-  width: 70%;
-  float: left;
+  background:rgba(255,255,255,0.6);
+  margin-left: 5%;
+  margin-right: 15%;
+  padding: 4% 4% 4% 4%;
+  font-weight: bold;
 }
 
-.page-content{
-  background-color: #eafdf1;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 5%;
+.primary{
+  width: 83%;
+  float: right;
 }
 
 .sidebar {
-  background: #fff;
- width: 10%;
- float: right;
- margin: 0 0 0 0;
+ width: 15%;
+ float: left;
+ margin: 0;
  padding: 1%;
+ background:rgba(255,255,255,0.6);
+ font-weight: bold;
  }
 
-/* comments style*/
-.comment-list{
-  border-style: dashed;
-}
-.comments-title{
-  width: 100%;
-  color: black;
-}
+
 
 /* footer style*/
 .footer {
-    background-color: black;
-    color:white;
+  background:rgba(255,255,255,0.8);
+    color: black;
     float: left;
     width: 100%;
     height: 50px;
